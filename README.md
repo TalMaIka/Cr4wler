@@ -1,4 +1,3 @@
-```markdown
 # Cr4wler
 
 Cr4wler is a web application designed to scan IP ranges, retrieve information about open ports, services, and related details, and present this information through an interactive user interface. The backend scanning is performed using tools like `masscan` and `nmap`, while the frontend is built using HTML, CSS, and JavaScript.
