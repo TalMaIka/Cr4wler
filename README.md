@@ -1,6 +1,8 @@
-# Cr4wler
+<p align="center"><a href="https://github.com/TalMaIka/Cr4wler"><img src="templates/icon.png" alt="Cr4wler icon" height="60"/></a></p>
+<h1 align="center">Cr4wler</h1>
 
-Cr4wler is a web application designed to scan IP ranges, retrieve information about open ports, services, and related details, and present this information through an interactive user interface. The backend scanning is performed using tools like `masscan` and `nmap`, while the frontend is built using HTML, CSS, and JavaScript.
+<p align="center">Cr4wler is a sophisticated web application dedicated to scanning IP ranges, extracting detailed information on open ports, services, and associated data, all seamlessly presented via an intuitive user interface.</br> Powered by robust backend tools such as masscan and nmap, Cr4wler ensures comprehensive scanning capabilities.</br> Crafted to deliver a seamless user experience.</p>
+
 
 ## Table of Contents
 
@@ -136,6 +138,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Enjoy using Cr4wler! If you have any questions or feedback, feel free to open an issue or reach out to us.
-```
-
-Save this content as `README.md` in the root directory of your project. This version includes the specific example response as requested.
