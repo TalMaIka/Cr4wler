@@ -1,7 +1,8 @@
 <h1 align="center">Cr4wler</h1>
 
-<p align="center">Cr4wler is a sophisticated web application dedicated to scanning IP ranges, extracting detailed information on open ports, services, and associated data, all seamlessly presented via an intuitive user interface.</br> Powered by robust backend tools such as masscan and nmap, Cr4wler ensures comprehensive scanning capabilities.</br> Crafted to deliver a seamless user experience.</p>
+
 <h1 align="center"><img src="https://i.imgur.com/nQCvNPA.png" alt="Cr4wler banner"></h1>
+<p align="center">Cr4wler is a sophisticated web application dedicated to scanning IP ranges, extracting detailed information on open ports, services, and associated data, all seamlessly presented via an intuitive user interface.</br> Powered by robust backend tools such as masscan and nmap, Cr4wler ensures comprehensive scanning capabilities.</br> Crafted to deliver a seamless user experience.</p>
 
 
 ## Table of Contents
