@@ -133,7 +133,7 @@ def main(ip_range, rate):
         print("Error: Masscan is not installed or not found in PATH.")
         return
 
-    #run_masscan(ip_range, rate)
+    run_masscan(ip_range, rate)
     mas_output = 'masscan_output.xml'
     # Check if masscan_output.xml is empty
     if not os.path.exists(mas_output) or os.stat(mas_output).st_size == 0:
