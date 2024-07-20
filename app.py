@@ -1,3 +1,9 @@
+# Cr4wler - Network Live Hosts Analyzer.
+# Version: 1.0.0
+# Date: Jul 21, 2024
+# Copyrights © Tal.M
+
+
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.exc import IntegrityError

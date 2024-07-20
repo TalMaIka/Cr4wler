@@ -1,3 +1,8 @@
+# Cr4wler - Network Live Hosts Analyzer.
+# Version: 1.0.0
+# Date: Jul 21, 2024
+# Copyrights © Tal.M
+
 import xml.etree.ElementTree as ET
 import subprocess
 import requests

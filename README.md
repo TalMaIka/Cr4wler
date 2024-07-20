@@ -1,9 +1,8 @@
-<h1 align="center">Cr4wler</h1>
+# Cr4wler
 
+![Cr4wler Logo](static/logo.png)
 
-<h1 align="center"><img src="https://i.imgur.com/nQCvNPA.png" alt="Cr4wler banner"></h1>
-<p align="center">Cr4wler is a sophisticated web application dedicated to scanning IP ranges, extracting detailed information on open ports, services, and associated data, all seamlessly presented via an intuitive user interface.</br> Powered by robust backend tools such as masscan and nmap, Cr4wler ensures comprehensive scanning capabilities.</br> Crafted to deliver a seamless user experience.</p>
-
+Cr4wler is a sophisticated web application dedicated to scanning IP ranges, extracting detailed information on open ports, services, and associated data, all seamlessly presented via an intuitive user interface. Powered by robust backend tools such as masscan and nmap, Cr4wler ensures comprehensive scanning capabilities and is crafted to deliver a seamless user experience.
 
 ## Table of Contents
 
@@ -19,10 +18,10 @@
 ## Features
 
 - Scan IP ranges for open ports and services.
-- Retrieve detailed information about discovered hosts including geolocation, OS, and reverse DNS.
+- Retrieve detailed information about discovered hosts including geolocation, OS, and reverse DNS, Ports and Services.
 - Display results in an interactive and user-friendly web interface.
-- Notification system for user feedback.
-- Sort results by timestamp to show the latest findings first.
+- Sort results by Country, Open-ports, Services, OS and more...
+- Statistics and graphs based on geolocation and stats.
 
 ## Requirements
 
@@ -30,38 +29,37 @@
 - Flask
 - masscan
 - nmap
-- Node.js (for front-end development)
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/TalMaIka/Cr4wler.git
-cd Cr4wler
-```
+    ```bash
+    git clone https://github.com/TalMaIka/Cr4wler.git
+    cd Cr4wler
+    ```
 
 2. Install the required Python packages:
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Ensure `masscan` and `nmap` are installed on your system. Refer to their respective installation guides.
 
 4. Start the Flask server:
 
-```bash
-python app.py
-```
+    ```bash
+    python app.py
+    ```
 
 ## Usage
 
 1. Start the Flask server:
 
-```bash
-python app.py
-```
+    ```bash
+    python app.py
+    ```
 
 2. Open your web browser and navigate to `http://localhost:5000`.
 
@@ -81,7 +79,7 @@ python app.py
             "city": "San Diego",
             "region": "California",
             "country": "US",
-            "loc": "375.25329,-1251.78575"
+            "loc": "37.25329,-121.78575"
         },
         "os_name": "Linux 2.4 (Slackware 10.2)",
         "rdns": "N/A",
@@ -107,13 +105,17 @@ python app.py
 
 ```
 Cr4wler/
+├── static/
+│   ├── styles.css        # CSS file
+|   |── main.js           # JS file  
+│   └── logo.png          # Logo image
 ├── templates/
 │   └── index.html        # Web interface
 ├── instance/
-│   └── hosts.db          # SQLite Databse.
+│   └── hosts.db          # SQLite Database.
 ├── requirements.txt      # Python dependencies
 ├── app.py                # Flask application
-├── scanner.py            # Crawler bots.
+└── scanner.py            # Crawler bots.
 ```
 
 ## Contributing
@@ -139,3 +141,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Enjoy using Cr4wler! If you have any questions or feedback, feel free to open an issue or reach out to us.
+
+---
